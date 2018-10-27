@@ -28,10 +28,14 @@ body{
   text-decoration: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 20px;
   text-align: center;
+  color: white;
+  opacity: 0.6;
+}
+#navbar div {
+  padding: 30px;
+}
 
-  opacity: .6;
-
-
+#navbar div:hover {
+  background: #444;
 }
