@@ -23,3 +23,15 @@ body{
   margin-bottom:10px;
   border:1px #ccc solid;
 }
+
+#navbar {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  text-align: center;
+
+  opacity: .6;
+
+
+}
