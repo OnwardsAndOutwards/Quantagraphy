@@ -4,7 +4,20 @@ body{
   font: normal 16px 'Roboto';
   text-decoration: none;
 }
-
+#logo {
+  text: 1.5rem;
+  text-align: center;
+  position: fixed;
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);\
+  text-transform: uppercase;
+  background: #666;
+  opacity: .8;
+  padding: 50px;
+  border-radius: 10px;
+}
 #particles-js{
   background: #222;
   height:100%;
@@ -18,7 +31,7 @@ body{
   position: fixed;
   width: 100%;
   background: #666;
-  opacity: .7;
+  opacity: .8;
 }
 
 nav ul {
