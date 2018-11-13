@@ -1,19 +1,19 @@
 {
   "particles": {
     "number": {
-      "value": 100
+      "value": 5
     },
     "color": {
       "value": "#999"
     },
     "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 3,
-        "color": "#999"
+      // "type": "circle",
+      // "stroke": {
+      //   "width": 3,
+      //   "color": "#999"
       },
       "image": {
-        "src": "http://www.iconsdb.com/icons/preview/white/contacts-xxl.png"
+        "src": "smile.png";
       }
     },
     "opacity": {
@@ -42,14 +42,16 @@
       "enable": true,
       "speed": 3,
       "direction": "none",
-      "straight": false
+      "straight": false,
+      "out_mode": "out",
+      "attract.enable": "true"
     }
   },
   "interactivity": {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
