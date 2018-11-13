@@ -1,7 +1,5 @@
 body{
-  font-family: 'Roboto', sans-serif;
   margin:0;
-  font: normal 16px 'Roboto';
   text-decoration: none;
   color: #999;
 }
@@ -10,44 +8,4 @@ body{
   height:100%;
   width:100%;
   position: fixed;
-}
-
-.navbar {
-  position: absolute;
-  width: 100%;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul li {
-  align: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  float: left;
-  width: 200px;
-  height: 40px;
-  background-color: #999;
-  opacity: 0.9;
-  line-height: 40px;
-  text-align: center;
-  font-size: 1.2rem
-}
-
-ul li a {
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-ul li a:hover {
-  background: #888;
-}
-
-ul li ul li {
-  display: none;
-}
-ul li:hover ul li {
-  display: block;
 }
