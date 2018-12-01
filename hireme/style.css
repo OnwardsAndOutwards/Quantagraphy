@@ -95,7 +95,7 @@ a::after {
     grid-auto-rows: 5;
     padding: 0;
     opacity: 0.65;
-    font-size: 0.2rem;
+    font-size: 0.3rem;
   
   }
   body, html {
