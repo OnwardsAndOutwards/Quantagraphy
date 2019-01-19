@@ -5,15 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Daniel Thomas</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Touch your screen</title>
+  <link rel="stylesheet" href="particlestyle.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
 </head>
 
 <body>
-<a href="HireMe.html">Hire Me</a>
-<a href="WebDevelopment.html">Check this shit out</a>
+  <!-- I didn't do anything but play with VincentGarreau's awesome particles.js library https://github.com/VincentGarreau/particles.js/ -->
+  <div id="particles-js"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function () {
+      console.log('particles.json loaded...');
+    });
+  </script>
   <!--
 
                                                _
