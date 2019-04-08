@@ -14,7 +14,8 @@ html {
 .pimg2,
 .pimg3,
 .pimg4,
-.pimg5 {
+.pimg5,
+.pimp6 {
   position: relative;
   opacity: 0.99;
   background-position: center;
@@ -45,6 +46,10 @@ html {
   min-height: 400px;
 }
 .pimg5 {
+  background-image: url("../images/adventure-bikers-biking-1010546.jpg");
+  min-height: 400px;
+}
+.pimg6 {
   background-image: url("../images/adventure-bikers-biking-1010546.jpg");
   min-height: 400px;
 }
@@ -99,7 +104,8 @@ a::after {
   .pimg2,
   .pimg3,
   .pimg4,
-  .pimg5 {
+  .pimg5,
+  .pimg6 {
     background-attachment: scroll;
   }
   .container {
