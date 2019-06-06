@@ -1,0 +1,113 @@
+body, html{
+  height: 100%;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.8em;
+  color: #666;
+  margin:0;
+  text-decoration: none;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+}
+
+
+.pimg1 {
+  background-image: url('../img/strawberry.jpg');
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url('../img/douchebeach.jpg');
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url('../img/cove.jpg');
+  min-height: 400px;
+}
+.pimg4 {
+  background-image: url('../img/sisters.jpg');
+  min-height: 400px;
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  
+}
+.ptext {
+  color: white;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: block;
+  padding: 25px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a::after {
+  text-decoration: none;
+  color: black;
+}
+
+#footer {
+  text-align: center;
+  font-size: 0.5rem;
+}
+#container {
+  column-count: 1;
+  padding: 25px;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+
+
+
+@media(max-width: 568px) {
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+    background-attachment: scroll;
+  }
+  .container {
+    grid-auto-rows: 1;
+    padding: 0;
+    opacity: 0.65;
+    font-size: 0.3rem;
+  
+  }
+  body, html {
+    font-size: 0.8rem;
+  }
+}
