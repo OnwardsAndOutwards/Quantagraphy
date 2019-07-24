@@ -189,7 +189,7 @@ footer.second {
 footer.second p {
 	color: #FFF;	
 }
-@media(max-width: 568px) {
+@media(max-width: 800px) {
 	.sidebar {
 		padding: 5%;
 		float: none;
