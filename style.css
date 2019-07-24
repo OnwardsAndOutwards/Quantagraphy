@@ -68,6 +68,9 @@ h1 {
 .content {
 	color: #fff;
 }
+.contact {
+	line-height: 180%;
+}
 .inner {
 	max-width: 60%;
 	margin: auto;
@@ -185,4 +188,24 @@ footer.second {
 }
 footer.second p {
 	color: #FFF;	
+}
+@media(max-width: 568px) {
+	.sidebar {
+		padding: 5%;
+		float: none;
+		width: 80%;
+	}
+	.left-col {
+		padding: 5%;
+		float: none;
+		font-size: 80%;
+		width: 80%;
+	}
+	.inner {
+		max-width: 60%;
+		margin: auto;
+		font-size: 90%;
+		line-height: 1.6;
+		padding: 10px;
+	}
 }
