@@ -1,113 +1,188 @@
-body, html{
-  height: 100%;
-  font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  line-height: 1.8em;
-  color: #666;
-  margin:0;
-  text-decoration: none;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+h2 {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2C2C2C;
+	text-decoration: underline;	
+}
+p {
+	font-family: 'Raleway', serif;
+	color: #2C2C2C;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}	
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(/index/img/TimeLapse.jpg) no-repeat 100% 100%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width:  100%;
+	max-width: none
+}
+.content {
+	max-width: 600px;
+	margin: auto;
+}
+h3 {
+	font-family: 'Raleway', serif;
+	color: #fff;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 300%;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 0px 0px 250px #000;
+}
+.content {
+	color: #fff;
+}
+.inner {
+	max-width: 60%;
+	margin: auto;
+	font-size: 170%;
+	line-height: 1.6;
+	padding: 10px;
+}
+/*---Start Nav---*/
+nav {
+	float: left;
+	padding: 5% 5% 0 0;
+	height: 50px;
+}
+nav ul {
+	list-style: none;
+	float: left;
+}
+nav ul li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 120%;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+nav ul, nav:active ul {
+	display: none;
+	left: 45px;
+	top: 60px;
+	width: 20px;
+	padding: 8px 0;
+	width: 20%;
+	z-index: 1000;
+}
+nav li {
+	width 100%;
+	padding: 8px 0 10px 7px;
+}
+nav:hover ul {
+	display: block;
+	position: absolute;
+}
+#menu-icon {
+	width: 30px;
+	height: 26px;
+	background: url(/index/img/nav-icon.png) center;
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+/*---End Nav---*/
+.left-col {
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+.sidebar {
+	width: 20%;
+	float: left;
+	margin: 4%;
+}
+.one-third-port {
+	width: 29.33333333%;
+	padding: 2%;
+	float: left;
+}
+.one-third-port:hover {
+	opacity: .6;
+}
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+}
+.clearfix {
+	clear: both;
+	height: 3%;
+}
+.contact {
+	color: #2C2C2C;
+}
+.contact a {
+	text-decoration: none;
+	color: #2C2C2C;
+}
+.break {
+	display: inline;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4 {
-  position: relative;
-  opacity: 0.85;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment: fixed;
+.icon {
+max-width: 60px;
 }
-
-
-.pimg1 {
-  background-image: url('../img/strawberry.jpg');
-  min-height: 100%;
+.parallax {
+	background: url(/index/img/H20.jpg) repeat fixed 100%;
+	opacity: .7;
 }
-.pimg2 {
-  background-image: url('../img/douchebeach.jpg');
-  min-height: 400px;
+.parallax-inner {
+	padding-top: 17%;
 }
-.pimg3 {
-  background-image: url('../img/cove.jpg');
-  min-height: 400px;
+.social {
+	list-style-type: none;
+	text-align: center;
 }
-.pimg4 {
-  background-image: url('../img/sisters.jpg');
-  min-height: 400px;
+.social li {
+	display: inline;
+	margin: 1% 5% 7% 4%;
+	color: #222222;
 }
-
-.section {
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  
+.social li:hover {
+	opacity: 0.6;
 }
-.ptext {
-  color: white;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 2rem;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+footer.second {
+	color: #FFF;	
 }
-
-
-
-ul {
-  list-style-type: none;
-}
-li {
-  display: block;
-  padding: 25px;
-}
-a {
-  text-decoration: none;
-  color: #666;
-}
-a:hover {
-  text-decoration: none;
-  color: black;
-}
-a::after {
-  text-decoration: none;
-  color: black;
-}
-
-#footer {
-  text-align: center;
-  font-size: 0.5rem;
-}
-#container {
-  column-count: 1;
-  padding: 25px;
-  opacity: 0.9;
-  font-size: 1rem;
-}
-
-
-
-
-@media(max-width: 568px) {
-  .pimg1, .pimg2, .pimg3, .pimg4 {
-    background-attachment: scroll;
-  }
-  .container {
-    grid-auto-rows: 1;
-    padding: 0;
-    opacity: 0.65;
-    font-size: 0.3rem;
-  
-  }
-  body, html {
-    font-size: 0.8rem;
-  }
+footer.second p {
+	color: #FFF;	
 }
