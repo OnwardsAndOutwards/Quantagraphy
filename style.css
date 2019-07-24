@@ -210,5 +210,8 @@ footer.second p {
 		line-height: 1.6;
 		padding: 10px;
 	}
+	.contact {
+		font-size: 60%;
+	}
 	
 }
