@@ -194,12 +194,14 @@ footer.second p {
 		padding: 5%;
 		float: none;
 		width: 80%;
+		margin: none;
 	}
 	.left-col {
 		padding: 5%;
 		float: none;
 		font-size: 80%;
 		width: 80%;
+		margin: none;
 	}
 	.inner {
 		max-width: 60%;
