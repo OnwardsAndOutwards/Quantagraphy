@@ -14,7 +14,8 @@ html {
 .pimg2,
 .pimg3,
 .pimg4,
-.pimg5 {
+.pimg5,
+.pimp6 {
     position: relative;
     opacity: 0.99;
     background-position: center;
@@ -28,28 +29,33 @@ html {
 }
 
 .pimg1 {
-    background-image: url("../images/me.jpg");
+    background-image: url("/Quantagraphy/MyBrain/Mushrooms/images/IMGP3788.jpg");
     min-height: 100%;
 }
 
 .pimg2 {
-    background-image: url("../images/aquatic-black-and-white-dolphin-219945.jpg");
+    background-image: url("/Quantagraphy/MyBrain/Mushrooms/images/IMGP3761.jpg");
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url("../images/danielThomasBeach.jpg");
+    background-image: url("/Quantagraphy/MyBrain/Mushrooms/images/KSII0232.jpg");
     min-height: 400px;
 }
 
 .pimg4 {
-    background-image: url("../images/ORlake.jpeg");
+    background-image: url("/Quantagraphy/MyBrain/Mushrooms/images/IMGP3740.jpg");
     min-height: 400px;
 }
 
 .pimg5 {
-    background-image: url("../images/ishalAhmedadventure-alpine-daylight-725719.jpg");
+    background-image: url("/Quantagraphy/MyBrain/Mushrooms/images/IMGP3766.jpg");
     min-height: 400px;
+}
+
+.pimg6 {
+    background-image: url("/Quantagraphy/MyBrain/Mushrooms/images/IMGP3764.jpg");
+    min-height: 100px;
 }
 
 .section {
@@ -71,20 +77,6 @@ html {
     text-transform: uppercase;
 }
 
-.list {
-    color: black;
-    line-height: 4rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 1.4rem;
-    letter-spacing: 8px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-}
-
 .container {
     column-count: 5;
     padding: 25px;
@@ -98,9 +90,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    color: #888;
 }
 
 a:hover {
@@ -123,17 +113,18 @@ a::after {
     .pimg2,
     .pimg3,
     .pimg4,
-    .pimg5 {
+    .pimg5,
+    .pimg6 {
         background-attachment: scroll;
     }
     .container {
         grid-auto-rows: 5;
         padding: 0;
         opacity: 0.65;
-        font-size: 0.3rem;
+        font-size: 0.5rem;
     }
     body,
     html {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
